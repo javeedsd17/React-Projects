@@ -1,0 +1,110 @@
+.container {
+    width: 640px;
+    margin: auto;
+    background-color: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+
+.container h2 {
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.container ul li {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border-radius: 8px;
+    border: 1px solid #686868;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container button {
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: #553f9a;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container .index {
+    margin: auto;
+    font-size: 18px;
+}
+
+.container .correct {
+    background: #dffff2;
+    border-color: green;
+}
+
+.container .wrong {
+    background: #ffebeb;
+    border-color: red;
+}
+
+/* Quiz Result Section */
+.result {
+    text-align: center;
+    padding: 40px 20px;
+
+    /* ✅ Center the result vertically and horizontally */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Makes sure it fills the available container space */
+    flex-grow: 1;
+}
+
+.result h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #4b3dbd;
+    margin-bottom: 10px;
+}
+
+.result h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #262626;
+    margin-top: 10px;
+}
+
+.result span {
+    color: #553f9a;
+    font-weight: 600;
+}
+
+.result button {
+    margin-top: 25px;
+    background: #553f9a;
+    color: white;
+    font-size: 20px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.result button:hover {
+    background: #3d2f8f;
+}
