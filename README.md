@@ -29,3 +29,20 @@ Each project focuses on different concepts like:
 - **REST APIs** *(for some projects)*
 
 ---
+## 📂 Folder Structure
+Most projects follow a structure like this:
+
+
+---
+
+## ▶️ How to Run Any Project Locally
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/javeedsd17/React-Projects.git
+
+cd React-Projects/project-name
+
+npm install
+
+npm run dev 
